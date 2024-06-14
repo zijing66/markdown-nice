@@ -85,7 +85,7 @@ markdownParser
   .use(markdownItLinkfoot) // 修改脚注
   .use(markdownItTableOfContents, {
     transformLink: () => "",
-    includeLevel: [2, 3],
+    includeLevel: [3, 4],
     markerPattern: /^\[toc\]/im,
   }) // TOC仅支持二级和三级标题
   .use(markdownItRuby) // 注音符号
